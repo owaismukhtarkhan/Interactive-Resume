@@ -1,11 +1,15 @@
 // script.ts
-// Smooth scroll for navigation links
-var navLinks = document.querySelectorAll(".nav-links a");
-navLinks.forEach(function (link) {
-    link.addEventListener("click", function (event) {
-        event.preventDefault();
-        var targetSection = document.querySelector(link.getAttribute("href"));
-        targetSection === null || targetSection === void 0 ? void 0 : targetSection.scrollIntoView({ behavior: "smooth" });
+// Select all experience headers
+var experienceHeaders = document.querySelectorAll('.experience-header');
+// Add click event listeners to each header
+experienceHeaders.forEach(function (header) {
+    header.addEventListener('click', function () {
+        // Get the target id from the header's data attribute
+        var targetId = header.getAttribute('data-target');
+        var details = document.getElementById(targetId);
+        // Toggle the visibility of the details
+        if (details) {
+            details.classList.toggle('visible');
+        }
     });
 });
-// Optionally, you can add more interactive behaviors here.

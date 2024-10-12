@@ -3,71 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Resume</title>
+    <title>Interactive Resume Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <h1>My Portfolio</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="intro">
+            <img src="/Interactive-Resume/Images/Profile-2.jpeg" alt="Profile Picture" class="profile-pic">
+            <h1>Owais Mukhtar Khan</h1>
+            <p>Full Stack Developer | Contact: owaismukhtarkhan@gmail.com</p>
+            <p>Phone: +923152414252</p>
+            <p>Phone: +923000509294</p>
+        </div>
     </header>
 
-    <section id="about" class="section">
-        <div class="content">
-            <img src="/Interactive-Resume/Images/Profile-2.jpeg" alt="Profile Picture" class="profile-pic">
-            <h2>Owais Mukhtar Khan</h2>
-            <p>Highly motivated focused professional with more than 10 years of diversified experience of operational leadership, team management, resource utilization, and organizational development in a highly decentralized organization.
-            <br>
-            Adept at identifying and implementing shop floor process optimization and control methods to eliminate turn-backs to reduce overall assembly costs.
-            <br>
-            Consistently participates in lean manufacturing and continuous improvement initiatives. Strong project planning skills with keen ability to multi-task in a fast-paced, results-driven environment.</p>
-        </div>
-    </section>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Highly motivated focused professional with more than 10 years of diversified experience of operational leadership, team management, resource utilization, and organizational development in a highly decentralized organization.</p>
+            <p>Adept at identifying and implementing shop floor process optimization and control methods to eliminate turn-backs to reduce overall assembly costs.</p>
+            <p>Consistently participates in lean manufacturing and continuous improvement initiatives. Strong project planning skills with keen ability to multi-task in a fast-paced, results-driven environment.</p>
+        </section>
 
-    <section id="experience" class="section">
-        <h2>Work Experience</h2>
-        <div class="experience-item">
-            <h3>Job Title</h3>
-            <p>Company Name | Date Range</p>
-            <ul>
-                <li>Achievement 1</li>
-                <li>Achievement 2</li>
+        <section id="experience">
+            <h2>Work Experience</h2>
+
+            <div class="experience-item">
+                <div class="experience-header" data-target="exp1">
+                    <h3>Deputy Manager - Quality Control</h3>
+                    <p>Midas Safety | 2023 - Present</p>
+                </div>
+                <div class="experience-details" id="exp1">
+                    <ul>
+                        <li>Accountable for resolving day-to-day quality issues on the shop floor and devising appropriate remedial actions.</li>
+                        <li>Responsible for monitoring testing and inspection processes and taking corrective measures as necessary.</li>
+                        <li>Review and develop inspection plans, Master Inspection Characteristics, and specifications.</li>
+                        <li>2</li>
+                        <li>2</li>
+                        <li>2</li>
+                        <li>2</li>
+                        <li>2</li>
+                        <li>2</li>
+                        <li>2</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header" data-target="exp2">
+                    <h3>Assistant Manager - Quality Control</h3>
+                    <p>Midas Safety | 2023 - Present</p>
+                </div>
+                <div class="experience-details" id="exp2">
+                    <ul>
+                        <li>Developed customer-facing web applications using JavaScript and PHP.</li>
+                        <li>Collaborated with UX/UI teams to refine user experiences.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item"></div>
+                <div class="experience-header" data-target="exp2">
+                    <h3>Assistant Manager - Quality Control</h3>
+                    <p>Midas Safety | 2023 - Present</p>
+                </div>
+                <div class="experience-details" id="exp2">
+                    <ul>
+                        <li>Developed customer-facing web applications using JavaScript and PHP.</li>
+                        <li>Collaborated with UX/UI teams to refine user experiences.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item"></div>
+                <div class="experience-header" data-target="exp2">
+                    <h3>Assistant Manager - Quality Control</h3>
+                    <p>Midas Safety | 2023 - Present</p>
+                </div>
+                <div class="experience-details" id="exp2">
+                    <ul>
+                        <li>Developed customer-facing web applications using JavaScript and PHP.</li>
+                        <li>Collaborated with UX/UI teams to refine user experiences.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor's in Computer Science</h3>
+                <p>University Name | Graduated 2017</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript & TypeScript</li>
+                <li>React, Node.js</li>
+                <li>Database Management (MySQL, MongoDB)</li>
             </ul>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <section id="education" class="section">
-        <h2>Education</h2>
-        <div class="education-item">
-            <h3>Degree</h3>
-            <p>Institution Name | Graduation Year</p>
-        </div>
-    </section>
-
-    <section id="skills" class="section">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-        </ul>
-    </section>
-
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Email: owaismukhtarkhan@gmail.com</p>
-        <p>Phone: +923152414252</p>
-    </section>
+    <footer>
+        <p>© 2024 Your Name. All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
