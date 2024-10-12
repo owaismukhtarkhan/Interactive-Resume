@@ -1,0 +1,83 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+}
+
+.navbar {
+    background-color: #111;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo h1 {
+    color: #E50914;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #E50914;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid #E50914;
+    box-shadow: 0 0 15px 8px #E50914;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.experience-item, .education-item {
+    margin: 20px 0;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-list li {
+    margin: 0 15px;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.section h2 {
+    color: #E50914;
+}
+
