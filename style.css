@@ -117,7 +117,7 @@ footer {
 
 /* About Me Section */
 #about {
-    padding: 10px; /* Adds padding around the whole section */
+    padding: 20px; /* Adds padding around the whole section */
     margin-bottom: 40px; /* Adds space below the "About Me" section */
     background-color: rgba(0, 0, 0, 0.2); /* Optional: for background styling */
     border-radius: 10px; /* Optional: to give the section rounded corners */
